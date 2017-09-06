@@ -1,0 +1,33 @@
+{
+  "name": "padriver",
+  "version": "0.0.2",
+  "description": "browser's gamepad api doens't support events, padriver populates a stream through requestAnimationFrame pushes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degumes/padriver.git"
+  },
+  "keywords": [
+    "gamepad",
+    "requestAnimationFrame",
+    "stream",
+    "virtualdom"
+  ],
+  "author": "itacir gabral",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/degumes/padriver/issues"
+  },
+  "homepage": "https://github.com/degumes/padriver#readme",
+  "dependencies": {
+    "@most/create": "^2.0.1",
+    "most": "^1.7.0",
+    "virtual-hyperscript-svg": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}

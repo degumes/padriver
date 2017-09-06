@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Editor para escrita em Libras">
+        <meta name="keywords" content="sing writing, libras, web editor">
+        <meta name="author" content="Itacir Gabral">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Scape</title>
+		<link rel="preload" href="stl.css" as="style">
+        <link rel="preload" href="virtualdom.bundle.js" as="script">
+		<link rel="preload" href="padstream.bundle.js" as="script">
+    </head>
+    <body>
+    	<div id="k0">
+    	</div>
+    <script>
+		const head = document.getElementsByTagName("head")[0]
+		const linkcss = document.createElement("link")
+
+		linkcss.href = "stl.css"
+		linkcss.type = "text/css"
+		linkcss.rel = "stylesheet"
+
+		window.requestAnimationFrame(()=>{
+			head.appendChild(linkcss)
+		})
+    </script>
+    <script src="padstream.bundle.js"></script>
+    <script defer src="virtualdom.bundle.js"></script>
+    </body>
+</html>
