@@ -19,3 +19,5 @@ browserify virtualdom.js -o virtualdom.bundle.js
 ```
 
 ## DIY
+* [Generator as animationFrame's callback](https://github.com/degumes/padriver/wiki/generator)
+* [export stream emitter](https://github.com/degumes/padriver/wiki/stream)
