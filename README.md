@@ -4,7 +4,7 @@
 Browser's gamepad api doens't support events, padriver populates a stream through requestAnimationFrame pushes
 
 ## url
-[github.io](https://degumes.github.io/padriver) (with --debug)
+[github.io](https://itacirgabral.github.io/padriver) (with --debug)
 
 ## install
 ```sh
