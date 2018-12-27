@@ -1,5 +1,7 @@
 # padriver
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/itacirgabral/padriver.svg)](https://greenkeeper.io/)
+
 ## description
 Browser's gamepad api doens't support events, padriver populates a stream through requestAnimationFrame pushes
 
